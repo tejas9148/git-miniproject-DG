@@ -8,9 +8,9 @@ def greet(name):
 def add(a, b):
     return a + b
 
-
 def validate_email(email):
-    return False
+    pattern = r"^[\w\.-]+@[\w\.-]+\.\w+$"
+    return re.match(pattern, email) is not None
 
 
 def get_user_input():
