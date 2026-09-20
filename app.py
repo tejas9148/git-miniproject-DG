@@ -14,7 +14,7 @@ def validate_email(email):
 
 
 def get_user_input():
-    name = input("Enter your name: ")
+    name = input("Enter your name: ").strip()
     return name
 
 
