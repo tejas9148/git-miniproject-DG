@@ -4,7 +4,7 @@ __version__ = "1.0.0"
 
 def greet(name):
 
-    return f"Hello, {name}!"
+    return f"Hello, {name.capitalize()}!"
 
 
 def add(a, b):
