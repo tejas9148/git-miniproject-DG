@@ -11,3 +11,4 @@ The project demonstrate feature development, releases, and production hotfixes.
 - `feature/*` branches are used to develop individual features.
 - `release/*` branches are used to prepare a version for production.
 - `hotfix/*` branches are used to fix urgent production issues.
+After a hotfix, the changes are merged back into both `main` and `develop` so the fix is included in production and future development.

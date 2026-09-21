@@ -1,0 +1,26 @@
+* 3e308f8 (HEAD -> develop, origin/develop) ci:add gitignore
+* 6edf87d ci: add GitHub Actions test pipeline
+* 96a8991 test: broken python file
+*   3c0d0cc merge: hotfix v1.0.1 into develop
+|\  
+* \   83ac18b merge: release v1.0.0 into develop
+|\ \  
+| | | *   f5f3d81 (tag: v1.0.1, origin/main, main) hotfix: fix greeting capitalization
+| | | |\  
+| | | |/  
+| | |/|   
+:
+* 3e308f8 (HEAD -> develop, origin/develop) ci:add gitignore
+* 6edf87d ci: add GitHub Actions test pipeline
+* 96a8991 test: broken python file
+*   3c0d0cc merge: hotfix v1.0.1 into develop
+|\  
+* \   83ac18b merge: release v1.0.0 into develop
+|\ \  
+| | | *   f5f3d81 (tag: v1.0.1, origin/main, main) hotfix: fix greeting capitalization
+| | | |\  
+| | | |/  
+| | |/|   
+| | * | 3fcd7a5 (origin/hotfix/fix-greet-bug, hotfix/fix-greet-bug) fix: capitalize greeting name
+| | |/  
+:

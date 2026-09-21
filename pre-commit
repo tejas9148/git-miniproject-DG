@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo "Running pre-commit checks..."
+
+for file in $(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+do
+    echo "Checking $file..."
+
+    python -m py_compile "$file"
+
+    if [ $? -ne 0 ]; then
+        echo "ERROR: Python syntax error in $file"
+        exit 1
+    fi
+done
+
+echo "Pre-commit checks passed."
+exit 0
