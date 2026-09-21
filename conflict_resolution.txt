@@ -1,0 +1,22 @@
+Conflict Resolution
+
+The conflict occurred because the develop branch and feature/user-greeting
+branch modified the same line inside the greet() function.
+
+The develop branch changed the greeting to:
+return f"Hello, {name}!"
+
+The feature branch changed the greeting to:
+return f"Welcome, {name}!"
+
+During the rebase, Git detected that both branches modified the same
+part of the file and inserted conflict markers.
+
+I manually resolved the conflict by keeping the desired greeting:
+return f"Hello, {name}!"
+
+The conflict markers were removed and the file was staged using:
+git add app.py
+
+The rebase was completed using:
+git rebase --continue

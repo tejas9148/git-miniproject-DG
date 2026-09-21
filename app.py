@@ -1,16 +1,23 @@
 import re
 
+__version__ = "1.0.0"
 
 def greet(name):
-    return f"Hello, {name}"
+
+    return f"Hello, {name}!"
 
 
 def add(a, b):
     return a + b
 
-
 def validate_email(email):
-    return False
+    pattern = r"^[\w\.-]+@[\w\.-]+\.\w+$"
+    return re.match(pattern, email) is not None
+
+
+def get_user_input():
+    name = input("Enter your name: ").strip()
+    return name
 
 
 if __name__ == "__main__":
