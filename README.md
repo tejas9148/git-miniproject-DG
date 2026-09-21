@@ -2,7 +2,7 @@
 
 This project simulates a complete software release cycle using Gitflow.
 
-The project demonstrates feature development, releases, and production hotfixes.
+The project demonstrate feature development, releases, and production hotfixes.
 
 ## Gitflow Branch Types
 
